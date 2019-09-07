@@ -9,7 +9,7 @@ export default class Projects extends Component {
 						<div className="row">
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 								<span className="heading-meta">My Work</span>
-								<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+								<h2 className="colorlib-heading animate-box">Projects</h2>
 							</div>
 						</div>
 						<div className="row">
@@ -17,13 +17,13 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
-											<p className="icon">
+										<h3><a href="https://github.com/kevincuax/LCSRedditSentimentalizer">LCS Reddit Sentiment Analysis</a></h3>
+											<span>NLP, Python</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
@@ -32,13 +32,13 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-											<span>Animation</span>
-											<p className="icon">
+										<h3><a href="https://github.com/kevincuax/Red-DiscordBot">Discord Bot</a></h3>
+											<span>Python, Discord API, Reddit API, Google API</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
@@ -47,18 +47,18 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
-											<p className="icon">
+										<h3><a href = "https://github.com/kevincuax/Super-Rainbow-Reef">Super Rainbow Reef</a></h3>
+											<span>Java</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
 								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
 									<div className="desc">
 										<div className="con">
@@ -102,7 +102,7 @@ export default class Projects extends Component {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 						<div className="row">
 							<div className="col-md-12 animate-box">
